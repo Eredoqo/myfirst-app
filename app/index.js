@@ -1,12 +1,10 @@
-const calc = require('./calc');
-const concat = require('./concat');
+const sum = require('./sum')
+const concat = require('./concat')
+const numbersToConcat = [1, 2, 3, 4, 5]
+const numbersToAdd = [1, 2, 3, 4, 5]
 
+const result = concat.concat(numbersToConcat)
+const result2 = sum.sum(numbersToAdd)
 
-const numberToAdd = [1, 2, 3, 4, 5];
-const numbersToConcat = [1, 2, 3, 4, 5];
-
-
-const result = calc.sum(numberToAdd);
-const result2 = concat.concat(numbersToConcat);
-console.log(`The result of the sum is ${result}`);
-console.log(`The result of the concat is ${result2}`);
+console.log(`The result of the concat is ${result}`)
+console.log(`The result of the sum is ${result2}`)
