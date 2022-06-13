@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/Eredoqo/nodejs/issues"
   },
-  "homepage": "https://github.com/Eredoqo/nodejs#readme"
+  "homepage": "https://github.com/Eredoqo/nodejs#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
