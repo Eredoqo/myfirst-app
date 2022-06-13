@@ -1,5 +1,5 @@
-const fs = require('fs')
-const _ = require('lodash')
+const fs = require('fs');
+const _ = require('lodash');
 
 let rawdata = fs.readFileSync('./data.json');
 let num = JSON.parse(rawdata);
