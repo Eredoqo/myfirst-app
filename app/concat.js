@@ -1,5 +1,5 @@
 const _ = require('lodash');
-const numbersFromJson = require('./files');
+const numbersFromJson = require('./filereader');
 
 const numbers = numbersFromJson.numbersJson.number;
 

@@ -1,4 +1,4 @@
-const numbersFromJson = require('./files');
+const numbersFromJson = require('./filereader');
 const data = numbersFromJson.numbersJson.number;
 const sumJson = data.reduce((sum, numeric) => sum + numeric, 0);
 
