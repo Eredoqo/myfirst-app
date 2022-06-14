@@ -1,2 +1,2 @@
-const sum = require('./app/index');
+require('./app/index');
 

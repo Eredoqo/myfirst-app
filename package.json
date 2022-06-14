@@ -22,6 +22,7 @@
     "nodemon": "^2.0.16"
   },
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "sorted-array-async": "^0.0.7"
   }
 }

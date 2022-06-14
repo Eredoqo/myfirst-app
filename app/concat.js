@@ -1,12 +1,10 @@
-const fs = require('fs');
 const _ = require('lodash');
+const numbersFromJson = require('./files');
 
-let rawdata = fs.readFileSync('./data.json');
-let num = JSON.parse(rawdata);
-const numberss = num.numbers;
+const numbers = numbersFromJson.numbersJson.number;
 
-function concat(arr){
-    return _.concat(arr, numberss)
+function concat(array) {
+    return _.concat(array, numbers)
 }
 
-module.exports.concat = concat;
+module.exports.concat = concat
